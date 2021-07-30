@@ -1,0 +1,35 @@
+
+.related-card {
+    width: 370px;
+    display: inline-block;
+    margin: 3px;
+    direction: rtl;
+    text-align: right;
+    background-color: #fff;
+    color: black;
+    border-top: 5px blue solid;
+  }
+  
+  .related-card mat-card-title {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .related-card .card a {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.2;
+  }
+  
+  .related-card .card a:hover {
+    color: blue;
+  }
+  
+  .related-card img {
+    padding-top: 5px;
+  }
+  

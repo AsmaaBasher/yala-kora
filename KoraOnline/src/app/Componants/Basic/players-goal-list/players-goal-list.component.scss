@@ -1,0 +1,76 @@
+.title {
+    background-color: #E8E8E8;
+    border-right: solid 4px black;
+    direction: rtl;
+    margin-bottom: 8px;
+  }
+  
+  .title .head_title {
+    height: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding: 3px 0 0;
+  }         
+         
+         /* First Row */
+  
+  
+  .head{
+    background-color: white;
+  }
+  .head .first{
+    background-color: cadetblue;
+    color: white;
+    font-size: 32px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  .head .second{
+    text-align: right;
+    /* background-color: white; */
+  }
+  .head .second a{
+    font-size: 32px;
+    line-height: 1.4;
+    padding-right: 0;
+  }
+  
+  .head .third{
+    text-align: center;
+    border-left: 1px solid black;
+    padding-left: 0;
+  }
+  
+  
+  .body{
+    background-color: white;
+    /* margin-right: 5px; */
+  }
+  
+  
+  .body .first{
+    background-color: cadetblue;
+    color: white;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  .body .second{
+    text-align: right;
+  }
+  .body .second a{
+    font-size: 24px;
+    line-height: 1.2;
+    padding-right: 0;
+  }
+  
+  .body .third{
+    text-align: center;
+    border-left: 1px solid black;
+  }
+  
+  .body .third img{
+    width: 50px;
+  }

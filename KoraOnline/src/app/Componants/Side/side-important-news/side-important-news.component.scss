@@ -1,0 +1,42 @@
+
+.news-card {
+    width: 370px;
+    display: inline-block;
+    margin: 3px;
+    direction: rtl;
+    text-align: right;
+    background-color: #fff;
+    color: black;
+    border-top: 5px blue solid;
+  }
+  
+  .news-card mat-card-title {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .news-card .card a {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.2;
+  }
+  
+  .news-card .card a:hover {
+    color: blue;
+  }
+  
+  .news-card .number {
+    background-color: #d4d4d4;
+    padding: 15px;
+    position: absolute;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 5px;
+  }
+  

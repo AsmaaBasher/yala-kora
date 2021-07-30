@@ -1,0 +1,119 @@
+//   .title h3 {
+//       width: 100%;
+//     background-color: black;
+//     color: white;
+//     text-align: center;
+//     margin-bottom: 0;
+//   }
+
+//   .image {
+//     float: right;
+//     width: 40px;
+//     height: 40px;
+//     margin-top: 10px;
+//     margin-right: 8px;
+//   }
+
+//   a {
+//     text-decoration: none;
+//     color: #000;
+//     font-weight: bold;
+//     text-align: right;
+//     display: block;
+//     margin: 0;
+//   }
+
+//   .item {
+//     border: 2px black solid;
+//   }
+
+//   .num {
+//     float: right;
+//     direction: rtl;
+//     text-align: center;
+//     width: 20px;
+//     background-color: #0277bd;
+//   }
+
+//   .num p {
+//     font-weight: 700;
+//     font-size: 20px;
+//     color: #0277bd;
+//   }
+
+//   .num span {
+//     text-align: center;
+//     font-size: 15px;
+//     color: #0277bd;
+//   }
+
+  .head {
+    background-color: #E8E8E8;
+    border-right: solid 4px black;
+    direction: rtl;
+    margin-bottom: 8px;
+    margin-top: 3px;
+  }
+
+  .container .head .head_title {
+    margin-top: 10px;
+    font-weight: bold;
+    float: right;
+    display: inline;
+    padding: 3px 0 0;
+  }
+
+//   .main-card-item {
+//     width: 80%;
+//     height: 90px;
+//     text-align: center;
+//     direction: rtl;
+// }
+
+// .main-card-item .image {
+//     margin-top: 5px;
+//     width: 100%;
+//     border-radius: 50%;
+//     display: block;
+// }
+
+// .main-card-item .details .match-time{
+// margin-top: 50px;
+// background-color: blue;
+// }
+
+.title{
+  margin: 0;
+  text-align: center;
+}
+.title h3{
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+ .item{
+  border: 1px solid red;
+  direction: rtl;
+  float: right;
+ }
+
+.second{
+  padding-bottom: 12px;
+  border-bottom: 1px solid gray;
+}
+.num{
+ background-color: gray;
+ text-align: center;
+}
+
+.names{
+text-align: right;
+}
+
+
+
+
+
+
+
+

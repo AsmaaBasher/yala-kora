@@ -1,0 +1,69 @@
+.head {
+    background-color: #E8E8E8;
+    border-right: solid 4px black;
+    direction: rtl;
+    margin-bottom: 8px;
+    margin-top: 3px;
+  }
+  
+  .head .head_title {
+    height: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding: 3px 0 0;
+  
+  }
+  
+  .card {
+    direction: rtl;
+    height: 22em;
+  }
+  
+  .card .card-image {
+    height: 12em;
+  }
+  
+  .card .card-title {
+    direction: rtl;
+    text-align: right;
+    cursor: pointer;
+  }
+  
+  .card .card-title:hover {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .span {
+    position: absolute;
+    right: 0;
+    height: 30px;
+    width: 100px;
+    background-color: #233424;
+    color: blanchedalmond;
+    text-align: right;
+    padding-right: 7px;
+    padding-top: 5px;
+  
+  }
+
+  
+.matches {
+    background-color: #0277BD;
+    margin-bottom: 8px;
+    height: 30px;
+}
+
+.matches .matches_click {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: left;
+}
+.matches .matches_click:hover {
+    cursor: pointer;   
+}
+
+.matches .matches_click  i {
+    margin-right: 10px;
+  }

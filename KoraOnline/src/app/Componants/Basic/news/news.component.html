@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="head col-md-12">
+      <h2 class="head_title">الأخبـــــار</h2>
+    </div>
+  </div>
+
+  <div class="row g-2">
+    <div class="col-3 mb-3" *ngFor="let post of pageSlice">
+      <div class="card">
+        <div class="card-image">
+          <img src="http://placehold.it/300x250" class="card-img-top" alt="...">
+        </div>
+        <span class="span">{{sport}}</span>
+        <div class="card-body">
+          <h2 class="card-title" [routerLink]="['/NewsDetail',post.id]"> {{post.title}}</h2>
+          <!-- <p class="card-text"> {{post.body}}</p> -->
+          <!-- <p style="color:#b9b9b9">Posted {{post.date |  date:'medium'}}</p> -->
+          <!-- <p style="color:#b9b9b9">Post id {{post.id}}</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <mat-paginator 
+  [length]="totalRecords"
+  [pageSize]="12" 
+  [pageSizeOptions]="[4,8,12]" (page)="OnPageChange($event)"
+    showFristLastButtons>
+  </mat-paginator>
+</div>

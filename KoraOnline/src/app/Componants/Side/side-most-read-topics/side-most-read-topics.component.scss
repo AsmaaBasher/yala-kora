@@ -1,0 +1,36 @@
+
+.most-read-card {
+    width: 370px;
+    display: inline-block;
+    margin: 3px;
+    direction: rtl;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    color: black;
+    border-top: 5px blue solid;
+  }
+  
+  .most-read-card mat-card-title {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .most-read-card .card a {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.2;
+  }
+  
+  .most-read-card .card a:hover {
+    color: blue;
+  }
+  
+  .most-read-card img {
+    padding-top: 5px;
+  }
+  

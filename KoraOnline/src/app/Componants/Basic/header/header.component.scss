@@ -1,0 +1,135 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    direction: rtl;
+    overflow-x: hidden!important;
+    overflow-y: scroll!important;
+  }
+  
+  .sidenav {
+    width: 230px;
+    background-color: #252525;
+  }
+  
+  .sidenav mat-nav-list a{
+    color: #fff;
+    font-family: droidLight, arial;
+    font-size: 18px;
+    padding-right: 25px;
+    border-bottom: 2px solid #333333;
+  }
+  .sidenav mat-nav-list a:hover{
+    background-color: #333333;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .nav {
+    background: black;
+    border: none;
+    text-align: right;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  
+  .navbar-brand {
+    border: 1px solid #ec1c23;
+    padding: 5px 10px;
+  }
+  
+  
+  .navbar-brand span:hover {
+    background-color: transparent;
+  }
+  
+  .navbar-brand span:first-child {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  @media(max-width:576px) {
+    .navbar-brand span:first-child {
+      font-size: 20px;
+    }
+  }
+  
+  @media(max-width:768px) {
+    .navbar-brand span:first-child {
+      font-size: 25px;
+    }
+  }
+  
+  .navbar-brand span:last-child {
+    color: #c9ff07;
+    font-size: 24px;
+  }
+  
+  @media(max-width:768px) {
+    .navbar-brand span:last-child {
+      font-size: 20px;
+    }
+  }
+  @media(max-width:576px) {
+    .navbar-brand span:last-child {
+      font-size: 18px;
+    }
+  }
+  
+  .nav mat-toolbar-row .nav-right a{
+    color: #fff;
+    font-size: 18px;
+  }
+  .nav mat-toolbar-row .nav-right a:hover{
+    background-color: #0277BD;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  @media(max-width:576px) {
+    .nav mat-toolbar-row .nav-right a{
+  display: none;
+    }
+  }
+  
+  @media(max-width:768px) {
+    .nav mat-toolbar-row .nav-right a{
+      font-size: 14px;
+    }
+  }
+  
+  /* mat-toolbar-row .nav-left{
+    border: 2px solid red;
+  }*/
+  @media(max-width:576px) {
+    mat-toolbar-row .nav-left a{
+  display: none;
+    }
+  }
+  /*
+  mat-toolbar-row .nav-left a{
+    margin: 0 ;
+    padding: 0;
+  } */
+  .fa {
+    color: white;
+  }
+  
+  mat-toolbar-row .nav-left .facebook:hover {
+    background-color: #4444FF;
+  }
+  
+  mat-toolbar-row .nav-left  .twitter:hover {
+    background-color: #1DA1F2;
+  }
+  
+  mat-toolbar-row .nav-left  .youtube:hover {
+    background-color: #FF0000;
+  }
+  
+  mat-toolbar-row .nav-left  .instagram:hover {
+    background-color: #E32E7F;
+  }
+  
+  

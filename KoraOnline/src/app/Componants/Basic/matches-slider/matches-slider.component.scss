@@ -1,0 +1,44 @@
+.carsoll{
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+.main-card-item {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    direction: rtl;
+}
+
+.main-card-item .image {
+    padding-top: 10px;
+    border-radius: 50%;
+}
+
+.main-card-item .match-state {
+    background-color: #00C853;
+}
+
+.main-card-item .match-state {
+    display: block;
+}
+
+.matches {
+    background-color: #0277BD;
+    margin-bottom: 8px;
+    height: 30px;
+}
+
+.matches .matches_click {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: left;
+}
+.matches .matches_click:hover {
+    cursor: pointer;   
+}
+
+.matches .matches_click  i {
+    margin-right: 10px;
+  }
